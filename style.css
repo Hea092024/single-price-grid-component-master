@@ -65,6 +65,7 @@ main {
 }
 .card{
     padding: 1em;
+    color: white;
 }
 #join {
   color: var(--Cyan);
@@ -99,6 +100,7 @@ main {
 
 .monthly {
   color: white;
+  padding: 1em 0;
 }
 
 #p2 {
@@ -110,6 +112,7 @@ main {
 
 #p4 {
   color: white;
+  padding: 1em 0;
 }
 
 #per {
@@ -120,12 +123,15 @@ main {
 #about {
   width: 100%;
   text-align: start;
+  color: lightgray;
+  
 }
 
 .title {
   width: 100%;
   text-align: start;
-  color: white;
+  
+  
 }
 
 /* .attribution { font-size: 11px; text-align: center; }
