@@ -45,13 +45,11 @@ main {
 }
 
 #div2 {
-  background-color: blue;
-  grid-area: div2;
   width: 350px;
   background-color: var(--Cyan);
   border: solid 1px black;
-  height: 500px;
-  padding: 1em;
+  height: 50svh;
+  padding: em;
 }
 
 #div2 > * {
@@ -91,6 +89,10 @@ main {
 .btn {
   background-color: var(--Bright-Yellow);
   height: 40px;
+padding: 10px;
+border-radius: 0.35rem;
+border: none
+
 }
 
 #sign {
@@ -98,28 +100,46 @@ main {
 }
 
 .monthly {
+    padding-top: 15px;
   color: white;
-  /* padding-right: 60px; */
+  padding-inline: 0.5em;
 }
 
 #p2 {
   color: white;
   width: 100%;
   text-align: start;
-  padding: 1em 0;
+  padding: .2em;
   padding-inline: 0.5em;
   font-size: 30px;
+}
+
+#p4{
+    padding: 20px;
+    color: white;
 }
 
 
 #per {
   color: hsla(180, 100%, 50%, 0.272);
-  font-size: 15px;
+ font-size: 18px
+}
+
+ul {
+  /* margin-block: unset;
+  padding-left: unset; */
+
+  font-size: 14px;
+
+  list-style: none;
+
+  color: white;
 }
 
 /* #about{
 
-    flex-direction: column;
+  width: 100%;
+  text-align: center;
 } */
 
 /* .attribution { font-size: 11px; text-align: center; }
