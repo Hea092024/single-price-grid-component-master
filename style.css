@@ -44,17 +44,19 @@ main {
   border: solid 1px black;
 }
 
+#div2 > * {
+  width: 100%;
+}
+
 #div2 {
   width: 350px;
   background-color: var(--Cyan);
   border: solid 1px black;
   height: 50svh;
-  padding: em;
+  padding: 1em;
 }
 
-#div2 > * {
-  width: 100%;
-}
+
 #div3 {
   background-color: blueviolet;
   border-radius: 0px 0px 10px 10px;
@@ -86,12 +88,13 @@ main {
   opacity: .9;
 }
 
-.btn {
+#btn {
   background-color: var(--Bright-Yellow);
   height: 40px;
 padding: 10px;
 border-radius: 0.35rem;
-border: none
+border: none;
+width: 80%;
 
 }
 
