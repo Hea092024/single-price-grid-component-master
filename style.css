@@ -1,3 +1,17 @@
+:root{
+
+
+
+/* ### Primary */
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+/* ### Neutral */
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -15,7 +29,7 @@ place-items: center;
   /* border: solid 1px black; */
   /* min-height: 100px; */
   height: 100svh;
-  max-width: 500px;
+  
 
   
   
@@ -32,25 +46,35 @@ min-height: 60svh;
     background-color: white;
     grid-area:div1;
     border-radius: 10px 10px 0 0;
+    width: 350px;
 }
 #div2{
 background-color: blue;
 grid-area: div2;
+width: 350px;
 }
 #div3{
 background-color: blueviolet;
 grid-area: div3;
 border-radius: 0px 0px 10px 10px;
+width: 350px;
 }
 
 #Hoved {
-    color: hsl(179, 62%, 43%);
+    color: var(--Cyan);
+    
 }
 
 #dager{
-    color: hsl(71, 73%, 54%);
+    color: var(--Bright-Yellow);
+    padding-top: 20px;
 }
 
+#P1{
+    color: var(--Light-Gray);
+    font-size: 16px;
+    padding-top: 20px;
+}
 
 
 
