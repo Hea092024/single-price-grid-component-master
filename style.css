@@ -40,8 +40,9 @@ main {
 #div1 {
   background-color: white;
   border-radius: 10px 10px 0 0;
-  width: 350px;
+  width: 300px;
   border: solid 1px black;
+  height: 60%;
 }
 
 #div2 > * {
@@ -49,7 +50,7 @@ main {
 }
 
 #div2 {
-  width: 350px;
+  width: 300px;
   background-color: var(--Cyan);
   border: solid 1px black;
   height: 50svh;
@@ -58,10 +59,11 @@ main {
 #div3 {
   background-color: blueviolet;
   border-radius: 0px 0px 10px 10px;
-  width: 350px;
+  width: 300px;
   background-color: var(--Cyan2);
   border: solid 1px black;
   text-align: center;
+  height: 50%;
 }
 .card{
     padding: 1em;
