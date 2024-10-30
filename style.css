@@ -4,6 +4,7 @@
 }
 body{
     min-height: 100svh;
+    background-color: hsl(204, 43%, 93%)
 }
 
 
@@ -28,7 +29,7 @@ min-height: 60svh;
 }
 
 #div1{
-    background-color: aqua;
+    background-color: white;
     grid-area:div1;
     border-radius: 10px 10px 0 0;
 }
@@ -41,6 +42,25 @@ background-color: blueviolet;
 grid-area: div3;
 border-radius: 0px 0px 10px 10px;
 }
+
+#Hoved {
+    color: hsl(179, 62%, 43%);
+}
+
+#dager{
+    color: hsl(71, 73%, 54%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
