@@ -18,6 +18,7 @@
   font-family: var(--font-family-karla);
 }
 body {
+    padding: 30px;
   min-height: 100svh;
   background-color: var(--Grayish-Blue);
 }
