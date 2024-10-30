@@ -53,9 +53,7 @@ main {
   background-color: var(--Cyan);
   border: solid 1px black;
   height: 50svh;
-  padding: 1em;
 }
-
 
 #div3 {
   background-color: blueviolet;
@@ -65,37 +63,34 @@ main {
   border: solid 1px black;
   text-align: center;
 }
-
-#Hoved {
+.card{
+    padding: 1em;
+}
+#join {
   color: var(--Cyan);
-  padding-top: 20px;
 }
 
 #dager {
   color: var(--Bright-Yellow);
-  padding-top: 20px;
+  padding: 1em 0;
 }
 
 #P1 {
   color: hsla(0, 0%, 50%, 0.587);
   font-size: 16px;
-  padding-top: 20px;
-  padding: 20px;
 }
 
 .btn:hover {
   cursor: pointer;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 #btn {
   background-color: var(--Bright-Yellow);
   height: 40px;
-padding: 10px;
-border-radius: 0.35rem;
-border: none;
-width: 80%;
-
+  border-radius: 0.35rem;
+  border: none;
+  width: 80%;
 }
 
 #sign {
@@ -103,47 +98,35 @@ width: 80%;
 }
 
 .monthly {
-    padding-top: 15px;
   color: white;
-  padding-inline: 0.5em;
 }
 
 #p2 {
   color: white;
   width: 100%;
   text-align: start;
-  padding: .2em;
-  padding-inline: 0.5em;
   font-size: 30px;
 }
 
-#p4{
-    padding: 20px;
-    color: white;
-}
-
-
-#per {
-  color: hsla(180, 100%, 50%, 0.272);
- font-size: 18px
-}
-
-ul {
-  /* margin-block: unset;
-  padding-left: unset; */
-
-  font-size: 14px;
-
-  list-style: none;
-
+#p4 {
   color: white;
 }
 
-/* #about{
+#per {
+  color: hsla(180, 100%, 50%, 0.272);
+  font-size: 18px;
+}
 
+#about {
   width: 100%;
-  text-align: center;
-} */
+  text-align: start;
+}
+
+.title {
+  width: 100%;
+  text-align: start;
+  color: white;
+}
 
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
