@@ -23,7 +23,7 @@ body {
   background-color: var(--Grayish-Blue);
 }
 
-div {
+section {
   display: flex;
   flex-direction: column;
   place-items: center;
