@@ -14,6 +14,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: var(--font-family-karla);
 }
@@ -32,7 +33,7 @@ section {
 main {
   max-width: 80%;
   margin-inline: auto;
-  min-height: 60svh;
+  min-height: 100svh;
 }
 
 #join-card {
@@ -56,8 +57,13 @@ main {
 }
 
 .card {
-  padding: 1em;
+  padding: 1.5em;
   color: white;
+  height: 15em;
+}
+
+#price{
+    font-size: 2rem;
 }
 #join {
   color: var(--Cyan);
@@ -65,10 +71,9 @@ main {
 
 #dager {
   color: var(--Bright-Yellow);
-  padding: 1em 0;
 }
 
-#P1 {
+#join-p {
   color: hsla(0, 0%, 50%, 0.587);
   font-size: 16px;
 }
@@ -79,11 +84,12 @@ main {
 }
 
 #btn {
+    margin-top: auto;
   background-color: var(--Bright-Yellow);
   height: 40px;
   border-radius: 0.35rem;
   border: none;
-  width: 80%;
+  width: 100%;
 }
 
 #sign {
@@ -122,9 +128,17 @@ main {
   width: 100%;
   text-align: start;
 }
-
-#whyus {
+h3{
+    padding: 0.5em 0;
+    width: 100%;
+}
+.para{
+    padding: 1em 0;
+    width: 100%;
+}
+#why-us {
   padding-bottom: 10px;
+  font-size: 18px;
 }
 
 /* .attribution { font-size: 11px; text-align: center; }
